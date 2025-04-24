@@ -1,12 +1,12 @@
-import streamlit as st
 import pandas as pd
+import streamlit as st
 import matplotlib.pyplot as plt
 import os
 
-# Load data
-project_folder = r"D:\APPLY WORK\PORTO\etl_building_store"
-data_path = os.path.join(project_folder, 'transformed_sales.csv')
+# Path relatif ke file CSV
+data_path = os.path.join("data", "transformed_sales.csv")
 df = pd.read_csv(data_path)
+
 
 st.title("📈 Dashboard Penjualan Toko Bangunan")
 
