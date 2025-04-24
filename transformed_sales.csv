@@ -1,0 +1,20 @@
+order_id,product,category,quantity,price,total,date
+2001,Semen Tiga Roda,bahan bangunan,5.0,65000,325000.0,2024-10-10
+2002,Cat Dulux Interior,cat,2.0,120000,240000.0,2024-10-11
+2003,Paku 5cm,perkakas,1.0,2000,2000.0,2024/10/12
+2005,Besi Beton 10mm,bahan bangunan,4.0,75000,300000.0,2024-10-14
+2006,Cat Avitex Eksterior,cat,3.0,110000,330000.0,2024-10-14
+2007,Semen Gresik,bahan bangunan,2.0,62000,124000.0,2024-10-15
+2008,Paku 10cm,perkakas,2.0,3500,7000.0,2024-10-15
+2009,Kawat Bendrat 1kg,bahan bangunan,1.0,12000,12000.0,2024-10-16
+2010,Cat Tembok Propan,cat,1.0,100000,100000.0,2024-10-17
+2011,Semen Tiga Roda,bahan bangunan,6.0,65000,390000.0,2024-10-18
+2012,Cat Dulux Interior,cat,4.0,120000,480000.0,2024-10-19
+2013,Paku 5cm,perkakas,3.0,2000,6000.0,2024-10-20
+2014,Kayu Jati 2m,bahan bangunan,2.0,85000,170000.0,2024-10-21
+2015,Besi Beton 10mm,bahan bangunan,5.0,75000,375000.0,2024-10-22
+2016,Cat Avitex Eksterior,cat,2.0,110000,220000.0,2024-10-23
+2017,Semen Gresik,bahan bangunan,4.0,62000,248000.0,2024-10-24
+2018,Paku 10cm,perkakas,5.0,3500,17500.0,2024-10-25
+2019,Kawat Bendrat 1kg,bahan bangunan,3.0,12000,36000.0,2024-10-26
+2020,Cat Tembok Propan,cat,1.0,100000,100000.0,2024-10-27

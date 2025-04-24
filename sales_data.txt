@@ -1,0 +1,51 @@
+# ETL & Data Analysis Project: Building Store Sales
+
+## 📌 Deskripsi Proyek
+Proyek ini merupakan mini-project portofolio. Proyek mencakup proses ETL (Extract, Transform, Load) dan analisis data penjualan dari toko bahan bangunan menggunakan Python dan pustaka populer seperti pandas dan matplotlib.
+
+## 🛠️ Tools & Libraries
+- Python 3.11+
+- pandas
+- matplotlib
+- PowerShell / CMD / Terminal
+- PyCharm / Code Editor lainnya
+
+## 📁 Struktur Folder
+```
+etl_building_store/
+│
+├── data/
+│   └── sales_data.csv          # Raw data penjualan
+├── etl_script.py               # Script ETL
+├── transformed_sales.csv       # Hasil data setelah transformasi
+├── analysis_script.py          # Script analisis & visualisasi data
+└── README.md                   # Dokumentasi proyek
+```
+
+## 🔄 Proses ETL
+**Extract**: Membaca data dari file CSV.
+
+**Transform**:
+- Mengubah kolom `date` ke format datetime
+- Mengisi nilai `total` jika kosong (`total = quantity * price`)
+- Menstandarisasi kolom `category` menjadi huruf kecil
+- Menghapus baris dengan data yang masih kosong
+
+**Load**: Menyimpan hasil transformasi ke file `transformed_sales.csv`
+
+## 📊 Analisis Data
+Script `analysis_script.py` digunakan untuk:
+- Menghitung total penjualan tiap kategori
+- Membuat visualisasi grafik batang (bar chart)
+
+Contoh visualisasi:
+- Total penjualan "bahan bangunan" lebih tinggi dibanding "cat" dan "perkakas"
+
+## ✅ Hasil
+- Script ETL berhasil dijalankan tanpa error
+- File CSV hasil transformasi berhasil dibuat
+- Visualisasi penjualan berdasarkan kategori berhasil ditampilkan
+
+## 👩‍💻 Dibuat oleh
+Elita Lestari Setianto 
+
